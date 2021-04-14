@@ -31,14 +31,14 @@ h2 {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 img {
-  width: 33.33%;
-  height: 30rem;
-  padding: 0 0.5rem;
-  border-radius: 50%;
   object-fit: cover;
+  border-radius: 50%;
+  width: 50%;
+  height: 83px;
 }
 
 .border-image {
@@ -146,4 +146,14 @@ input {
 .list-item__count {
   font-size: 1.8rem;
   font-weight: bold;
+}
+
+.container__products--images > div {
+  width: 10.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid #0000003b;
+  margin: 4rem 12rem;
 }
