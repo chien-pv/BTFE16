@@ -39,7 +39,9 @@ $(document).ready(function() {
       `
   
       image+= `
-        <img src="./images/product0${index+1}.jpg" alt="">
+        <div>
+          <img src="./images/product0${index+1}.jpg" alt="">
+        </div>
       `
     });
 
@@ -75,7 +77,9 @@ $(document).ready(function() {
       listItem.splice(filterName[filterName.length-1], 1);
       listItem.forEach(function(item) {
         image+= `
+        <div>
           <img src="./${item.src}" alt="">
+        </div>
         `
       });
       $(".container__products--images").html(image);
@@ -108,7 +112,9 @@ $(document).ready(function() {
       listItem = [...listItem, { id: listItem.length + 1, name: name, price: parseInt(price), src: `images/product0${getParent+1}.jpg` }];
       listItem.forEach(function(item) {
         image+= `
-          <img src="./${item.src}" alt="">
+          <div>
+            <img src="./${item.src}" alt="">
+          </div>
         `
       });
       $(".container__products--images").html(image);
