@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: #f5f6f7;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.header-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-group__button {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  height: 4rem;
+  width: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.header-group__title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.group-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 3rem;
+  width: 20rem;
+  height: 3.5rem;
+}
+
+.group-search__field {
+  height: 100%;
+}
+
+.group-searech__icon {
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+  font-size: 2rem;
+}
