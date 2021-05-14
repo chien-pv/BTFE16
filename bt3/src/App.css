@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 50px auto;
+  max-width: 640px;
+  background-color: rgb(1, 20, 26);
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.603);
+  line-height: 25px;
+}
+
+.name {
+  color: #7F900D;
+}
+
+.audio {
+  margin-top: 10px;
+}
+
+.audio button {
+  background-color: #01141A;
+  border: none;
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 35px auto;
+  width: 26.7vw;
+  border: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.clicker__main {
+  margin: 5vh 2.5vw;
+  border: 2px solid rgba(0, 0, 0, 0.315);
+  border-radius: 5px;
+}
+
+.clicker__main h1 {
+  font-size: 150px;
+  font-weight: normal;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.411);
+}
+
+.clicker__main div {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.clicker__main div button {
+  flex: 1 1 auto;
+  height: 100px;
+  font-size: 60px;
+  border: none;
+  color: white;
+}
+
+.plus {
+  background-color: #00B946;
+}
+
+.reset {
+  background-color: #FBD100;
+}
+
+.minus {
+  background-color: #E30034;
+}
