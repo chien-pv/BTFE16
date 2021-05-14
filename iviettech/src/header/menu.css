@@ -1,0 +1,36 @@
+.menu{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 5px solid #CA3438;
+  margin-top: -1em;
+  height: 90px;
+}
+.menu h1{
+  margin-left: 5em;
+  margin-top: .6em;
+}
+.menu .menu__logo{
+  display: flex;
+  flex-direction: column;
+}
+.menu .menu__listmenu{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.6em;
+}
+.menu ul span{
+  margin: 0 .5em;
+}
+.menu ul li{
+  list-style: none;
+  display: inline;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.menu .menu__listmenu--1{
+  color: red;
+}
+

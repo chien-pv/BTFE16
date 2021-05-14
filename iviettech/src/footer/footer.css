@@ -1,0 +1,37 @@
+.container__footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #A9A9A9;
+}
+.container__footer__vt{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: left;
+  margin-left: 170px;
+}
+.container__footer__vt p{
+  color: #fff;
+  font-size: 12px;
+}
+.container__footer__vt p a{
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+.copyright{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 190px;
+  margin-top: 20px;
+}
+.p1{
+  margin-bottom: -10px;
+  margin-top: 15px;
+}
+.p2{
+  margin-bottom: 10px;
+}

@@ -1,0 +1,161 @@
+.daotao{
+  display: flex;
+  flex-direction: row;
+  background-color: #CA3438;
+  width: 1349px;
+  height: 350px;
+  padding: 20px;
+}
+
+/* DangKyHoc */
+.container{
+  width: 234px;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed white;
+  border-radius: 8px;
+  margin-left: 158px;
+  margin-right: 25px;
+  padding-bottom: 10px;
+}
+.container .container__dangky{
+  width: 212px;
+  height: 51px;
+}
+.container .container__dangky h2{
+  color: white;
+  border-bottom: 1px dashed #d45b5f;
+  padding-bottom: 10px;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: normal;
+  display: block;
+  line-height: 34px;
+}
+.container .container__form{
+  width: 212px;
+  height: 254px;
+  margin-top: 20px;
+}
+.container .container__form input{
+  background-color: #db777a;
+  border: none;
+  color: white;
+  padding: 3px 6px;
+  margin: 5px 15px;
+  font-size: 14px;
+  width: 190px;
+  height: 18px;   
+}
+.container .container__form .loinhan{
+  height: 35px;
+}
+::-webkit-input-placeholder {
+  color: white;
+}
+.container .container__form select{
+  background-color: #db777a;
+  border: none;
+  color: #fff;
+  padding: 3px 6px;
+  margin: 7px 15px;
+  font-size: 14px;
+  width: 204px;
+  height: 30px;
+
+}
+.container .container__form option{
+  background-color: white;
+  color: black;
+}
+.container .container__form button{
+  background: no-repeat 24% center #f89800 scroll;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 12px 9px;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  color: white;
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 204px;
+} 
+
+/* Ctdt */
+
+.ctdt{
+  width: 736px;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed white;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+.ctdt .ctdt__dt{
+
+}
+.ctdt .ctdt__dt h2 a{
+  color: white;
+  border-bottom: 1px dashed #d45b5f;
+  padding-bottom: 10px;
+  text-decoration: none;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: normal;
+  display: block;
+  line-height: 34px;
+}
+.ctdt .ctdt__carousel{
+  width: 716px;
+  height: 232px;
+  margin-top: -15px;
+}
+.ctdt .ctdt__carousel ul{
+  display: flex;
+  flex-direction: row;
+}
+.ctdt .ctdt__carousel ul li{
+  list-style: none;
+  margin: 0 20px;
+  text-align: center;
+}
+.ctdt .ctdt__carousel ul li a{
+  width: 127px;
+  height: 127px;
+  text-decoration: none;
+}
+.ctdt .ctdt__carousel ul li a img{
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  border: 1px dashed white;
+  padding: 5px;
+}
+.ctdt .ctdt__carousel ul li .ctdt__carousel--descrip{
+  margin-top: -15px;
+}
+.ctdt .ctdt__carousel ul li .ctdt__carousel--descrip h3{
+  
+}
+.ctdt .ctdt__carousel ul li .ctdt__carousel--descrip h3 a{
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  display: block;
+  line-height: 30px;
+}
+.ctdt .ctdt__carousel ul li .ctdt__carousel--descrip p{
+  color: #fff;
+  font-size: 12px;
+  margin-top: -58px;
+}

@@ -1,0 +1,141 @@
+.khaigiangKhoahoc{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 485px;
+  background-color: #CA3438;
+}
+.lichkhaigiang{
+  display: flex;
+  flex-direction: column;
+  width: 655px;
+  height: 395px;
+  margin-left: 170px;
+}
+.lichkhaigiang .lichkhaigiang__title{
+  padding-top: 15px;
+}
+.lichkhaigiang .lichkhaigiang__title h2{
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #d45b5f;
+}
+.lichkhaigiang .lichkhaigiang__title h2 a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: normal;
+  display: block;
+  line-height: 34px;
+  text-decoration: none;
+}
+.lichkhaigiang .lichkhaigiang__content{
+  margin-left: -40px;
+  margin-right: 50px;
+  margin-top: -10px;
+}
+.lichkhaigiang .lichkhaigiang__content .lichkhaigiang__content--respon{
+
+}
+.lichkhaigiang .lichkhaigiang__content .lichkhaigiang__content--respon ul{
+  list-style: none;
+}
+.lichkhaigiang .lichkhaigiang__content .lichkhaigiang__content--respon ul li{
+  float: left;
+  text-align: left;
+  width: 48%;
+}
+.lichkhaigiang__content--respon .content--left{
+  float: left;
+  margin-bottom: 20px;
+}
+.lichkhaigiang__content--respon .content--left a img{
+  width: 63px;
+  height: 63px;
+  border-radius: 8px;
+}
+.lichkhaigiang__content--respon .content--right{
+  float: right;
+  margin-right: 40px;
+  margin-top: -5px;
+}
+.lichkhaigiang__content--respon .content--right p a{
+  text-decoration: none;
+  color: #fff;
+}
+.lichkhaigiang__content--respon .content--right p{
+  color: #fff;
+  line-height: 5px;
+  font-size: 13px;
+}
+
+/* cackhoakhac */
+
+.cackhoahoc{
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  height: 460px;
+  border: 1px dashed white;
+  margin-left: 30px;
+  margin-top: 11px;
+  border-radius: 8px;
+}
+.cackhoahoc .cackhoahoc_title{
+  height: 40px;
+  padding-bottom: 20px;
+}
+.cackhoahoc .cackhoahoc_title h2{
+  
+}
+.cackhoahoc .cackhoahoc_title h2 a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: normal;
+  display: block;
+  line-height: 34px;
+  text-decoration: none;
+}
+.cackhoahoc .cackhoahoc_content{
+  
+}
+.cackhoahoc .cackhoahoc_content ul{
+  list-style: none;
+}
+.cackhoahoc .cackhoahoc_content ul li{
+  height: 76px;
+  text-align: left;
+}
+.cackhoahoc .cackhoahoc_content ul li .cackhoahoc_content--left{
+  float: left;
+  width: 20%;
+  height: 44px;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+.cackhoahoc .cackhoahoc_content ul li .cackhoahoc_content--left a img{
+  width: 43px;
+  height: 43px;
+  margin-left: 12px;
+}
+.cackhoahoc .cackhoahoc_content ul li .cackhoahoc_content--right{
+  float: right;
+  width: 80%;
+  height: 76px;
+  font-size: 13px;
+  line-height: 23px;
+  margin-right: 10px;
+}
+.cackhoahoc .cackhoahoc_content ul li .cackhoahoc_content--right p a{
+  text-decoration: none;
+  color: #fff;
+}
+.cackhoahoc .cackhoahoc_content ul li .cackhoahoc_content--right p{
+  color: #fff;
+  margin-bottom: -20px;
+}
+.khoakhoa{
+  padding-bottom: 112px;
+  margin-top: -15px;
+  border-top: 1px dashed #d45b5f;
+}

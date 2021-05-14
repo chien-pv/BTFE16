@@ -1,0 +1,116 @@
+.gioithieu{
+  width: 1349px;
+  height: 376px;
+}
+.gioithieu .gioithieu__container{
+  display: flex;
+  flex-direction: row;
+  width: 996px;
+  height: 309px;
+}
+.gioithieu__container__gt--img{
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  height: 259px;
+  margin-top: 60px;
+  margin-left: 170px;
+  margin-right: 50px;
+}
+.gioithieu__container__gt--img a{
+
+
+}
+.gioithieu__container__gt--img a img{
+  width: 259px;
+  height: 259px;
+  border-radius: 50%;
+  border: 3px solid #CA3438;
+  
+}
+.gioithieu__container__gt--detail{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 30px;
+  margin-right: 50px;
+}
+.gioithieu__container__gt--detail h2{
+  border-bottom: 1px solid #eee;
+}
+.gioithieu__container__gt--detail h2 a{
+
+}
+.gioithieu__container__gt--detail h2 a img{
+  width: 300px;
+  height: 70px;
+}
+.gioithieu__container__gt--detail h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #2f2f2f;
+  font-weight: normal;
+  text-transform: capitalize;
+  line-height: 41px;
+  padding: 10px 0 7px;
+  margin-top: -20px;
+  text-align: start;
+}
+.gioithieu__container__gt--detail p{
+  text-align: start;
+  width: 316px;
+  height: 130px;
+  margin-top: -25px;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 20px;
+}
+.gioithieu__container__gt--detail .xemthem{
+  text-align: end;
+  margin-top: 15px;
+}
+.gioithieu__container__gt--detail .xemthem a{
+  text-decoration: none;
+  color: white;
+  background-color: #c5450c;
+  font-size: 12px;
+  padding: 4px 8px 5px;
+  border-radius: 10px;
+}
+.gioithieu__container__gt--detail .xemthem a:hover{
+  color: white;
+  background-color: #fc5105;
+}
+
+.gioithieu__container__ketnoi{
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  height: 271px;
+  margin-top: 30px;
+}
+.gioithieu__container__ketnoi--h2{
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.gioithieu__container__ketnoi--h2 span{
+  border-bottom: 1px dashed #d2d2d2;
+  padding-bottom: 15px;
+}
+.gioithieu__container__ketnoi--h2 span a{
+  text-decoration: none;
+  color: black;
+  font-family: inherit;
+  font-size: 25px;
+}
+.gioithieu__container__ketnoi .gioithieu__container__ketnoi--link{
+  width: 298px;
+  height: 215px;
+}
+.gioithieu__container__ketnoi--link a{
+
+}
+.gioithieu__container__ketnoi--link a img{
+  width: 300px;
+  height: 130px;
+}

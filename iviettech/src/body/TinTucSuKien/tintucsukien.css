@@ -1,0 +1,234 @@
+.tintuc{
+
+}
+.tintuc .container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 510px;
+}
+
+.container .tintuc__sukien{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 480px;
+  margin-top: 15px;
+}
+.container .tintuc__sukien .title{
+  width: 600px;
+  height: 59px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.container .tintuc__sukien .title h2{
+
+}
+.container .tintuc__sukien .title h2 a{
+  text-decoration: none;
+  font-weight: normal;
+  float: left;
+}
+.container .tintuc__sukien .title h2 a span{
+  color: black;
+}
+.container .tintuc__sukien .title h2 a .titlle__speacial{
+  font-size: 15px;
+  color: #6f6f6f;
+  margin-right: 35px;
+}
+
+.container .tintuc__sukien .xuhuong{
+  width: 610px;
+  height: 246px;
+  border-top: 1px dashed #d2d2d2;
+}
+.container .tintuc__sukien .xuhuong .xuhuong__container{
+  margin-top: 20px;
+}
+.xuhuong .xuhuong__container .xuhuong__container--left{
+  float: left;
+}
+.xuhuong .xuhuong__container .xuhuong__container--left a{
+  
+}
+.xuhuong .xuhuong__container .xuhuong__container--left a img{
+  margin-left: 15px;
+}
+.xuhuong .xuhuong__container .xuhuong__container--right{
+  float: right;
+  width: 305px;
+  height: 177px;
+  margin-top: -25px;
+  text-align: left;
+  margin-right: 10px;
+}
+.xuhuong .xuhuong__container .xuhuong__container--right h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #2f2f2f;
+  font-weight: normal;
+  line-height: 26px;
+  padding: 3px 0;
+}
+.xuhuong .xuhuong__container .xuhuong__container--right p:nth-child(2){
+  color: #979797;
+  font-weight: normal;
+  font-size: 13px;
+  float: left;
+  margin-top: -10px;
+}
+.xuhuong .xuhuong__container .xuhuong__container--right p:nth-child(3){
+  font-weight: normal;
+  font-size: 14px;
+  float: left;
+  line-height: 20px;
+  margin-top: 2px;
+}
+
+.tintucdadua{
+  margin-left: 15px;
+  border-bottom: 1px dashed #d2d2d2;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.tintucdadua h2{
+  float: left;
+  margin-bottom: 10px;
+}
+.tintucdadua h2 a{
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+}
+.container .tintuc__sukien .content{
+  width: 600px;
+  height: 120px;
+}
+.container .tintuc__sukien .content .content_container{
+
+}
+.container .tintuc__sukien .content .content_container ul{
+
+}
+.container .tintuc__sukien .content .content_container ul li{
+  width: 267px;
+  height: 75px;
+  list-style: none;
+  float: left;
+}
+.container .tintuc__sukien .content .content_container ul li:nth-child(2){
+  margin-left: 15px;
+}
+.container .tintuc__sukien .content .content_container ul li .content_container--left{
+  float: left;
+}
+.container .tintuc__sukien .content .content_container ul li .content_container--left a{
+  float: left;
+}
+.container .tintuc__sukien .content .content_container ul li .content_container--left a img{
+  margin-left: -22px;
+  margin-right: 10px;
+}
+.container .tintuc__sukien .content .content_container ul li .content_container--right{
+  float: left;
+  width: 146px;
+}
+.container .tintuc__sukien .content .content_container ul li .content_container--right h4{
+  color: #595959;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: left;
+  margin-top: -2px;
+  margin-left: 5px;
+}
+.container .tintuc__sukien .content .content_container ul li .content_container--right p{
+  color: #979797 !important;
+  font-weight: normal !important;
+  font-size: 13px;
+  margin-top: -15px;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.tintuc .container .tintuyendung{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.tintuc .container .tintuyendung .title{
+
+}
+.tintuc .container .tintuyendung .title h2{
+  font-weight: normal;
+  float: left;
+  margin-left: 10px;
+}
+.tintuc .container .tintuyendung .title h2 span{
+
+}
+.tintuc .container .tintuyendung .title h2 .titlle__speacial{
+  font-size: 15px;
+  color: #6f6f6f;
+  margin-left: 50px;
+}
+
+.tintuc .container .tintuyendung .timviec{
+  border-top: 1px dashed #d2d2d2;
+  margin-top: -17px;
+  margin-left: 30px;
+}
+.tintuc .container .tintuyendung .timviec ul{
+ list-style: none;
+ width: 400px;
+ height: 429px;
+}
+.tintuc .container .tintuyendung .timviec ul li{
+
+  margin-left: -30px;
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container{
+  width: 380px;
+  height: 77px;
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container--left{
+  float: left;
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container--left a{
+
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container--left a img{
+  width: 63px;
+  height: 63px;
+  border-radius: 8px;
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container--right{
+  float: right;
+  width: 298px;
+  height: 60px;
+  text-align: left;
+  margin-top: -15px;
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container--right p{
+  color: #2f2f2f;
+  font-size: 13px;
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container--right p a{
+  text-decoration: none;
+  color: #cf484c !important
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container--right p:nth-child(2){
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: -10px;
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container--right p a:hover{
+  color: #00a300 !important;
+}
+.tintuc .container .tintuyendung .timviec ul li .timviec__container--right p:nth-child(3){
+  color: #979797;
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: -8px;
+}
+
