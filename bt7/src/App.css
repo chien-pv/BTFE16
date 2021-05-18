@@ -1,0 +1,15 @@
+
+tbody button,input{
+  width: 25px;
+  height: 25xp;
+  margin-right: 0rem;
+  text-align: center;
+}
+.checkout{
+  width: 100px;
+}
+img{
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+}
